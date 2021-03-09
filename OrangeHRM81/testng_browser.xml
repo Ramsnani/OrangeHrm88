@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" thread-count="3" parallel="tests">
+  
+  <test  name="BrowserTest" enabled="true">
+   <parameter name="Browser" value="chrome"/> 
+    <classes>
+      <class name="Pavan2.BrowserTesting"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+</suite> <!-- Suite -->

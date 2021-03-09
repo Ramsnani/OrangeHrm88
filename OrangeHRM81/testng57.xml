@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" thread-count="3" parallel="tests">
+
+<test name="TC01_Mercury_FireFox" enabled="true">  
+   <parameter name="Browser1" value="FireFox"/> 
+  <parameter name="TestURL1" value="http://newtours.demoaut.com/"/> 
+   <parameter name="UserName1" value="mercury"/> 
+   <parameter name="Password1" value="mercury"/> 
+   
+    <classes> 
+ 	  <class name="Nationality.MercuryParameters2FireFox"/>   
+ 	</classes> 
+</test> <!-- Test -->
+  
+  
+  
+<test name="TC01_Mercury_Chrome" enabled="true">  
+   <parameter name="Browser1" value="Chrome"/> 
+  <parameter name="TestURL1" value="http://newtours.demoaut.com/"/> 
+   <parameter name="UserName1" value="mercury"/> 
+   <parameter name="Password1" value="mercury"/> 
+   
+    <classes> 
+ 	  <class name="Nationality.MercuryParameters2FireFox"/>   
+ 	</classes> 
+</test> <!-- Test -->
+  
+    
+  
+</suite> <!-- Suite -->
